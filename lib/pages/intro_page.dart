@@ -17,7 +17,7 @@ class IntroPage extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
             child: Image.asset(
-              'assets/nikelogo.png',
+              'assets/randomlogo.png',
               height: 240,
             ),
           ),
@@ -28,7 +28,7 @@ class IntroPage extends StatelessWidget {
         ),
 
         Text(
-          'Just Do It',
+          'Just Don't do It',
           style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
         ),
 
@@ -38,7 +38,7 @@ class IntroPage extends StatelessWidget {
 
         //sub title
         Text(
-          'Coolest sneakers to match your drip! \n       Ready to show off your vibe?',
+          'Demo text \n       lorem ipsum',
           style: TextStyle(
               fontSize: 16,
               fontWeight: FontWeight.w200,
